@@ -1,1 +1,6 @@
 Please, report all issues to http://youtrack.jetbrains.com/issues/JT#newissue=yes
+
+
+Here is an example import command when importing issues from the Redmine issue tracker:
+
+sudo python redmine2youtrack.py -a yourRedmineAPIKey http://yourRedmineurl.com http://yourYouTrackPrefix.myjetbrains.com/youtrack root yourYoutrackPassord yourRedmineProjectName
